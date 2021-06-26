@@ -5,7 +5,9 @@ import { NavLink } from 'react-router-dom'
 export const Navegacion = () => {
     return (
         <Navbar bg="dark" expand="lg" variant="dark">
-  <Navbar.Brand href="#home" className="ms-3">Marcos E. Herrera</Navbar.Brand>
+  <Navbar.Brand href="#home" className="ms-3">
+    Marcos E. Herrera
+    </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ms-auto">

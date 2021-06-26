@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navegacion } from "./components/commons/Navegacion";
 import { Footer } from "./components/commons/Footer";
@@ -14,13 +13,12 @@ import React from "react";
 
 function App() {
   return (
-    <Fragment>
-      <header className="bg-dark">
-      <Container>
+    
       <Router>
         <Navegacion></Navegacion>
+        <Container>
         <Switch>
-          <Route exact path="/marcos">
+          <Route exact path="/">
             <SobreMi></SobreMi>
           </Route>
           <Route exact path="/marcos/educacion">
@@ -42,16 +40,9 @@ function App() {
             <Contacto></Contacto>
           </Route>
         </Switch>
-      </Router>
-    </Container>
-      </header>
-      <main>
-        <SobreMi></SobreMi>
-        </main>
-      <footer>
+        </Container>
         <Footer></Footer>
-      </footer>
-    </Fragment>
+      </Router>    
   );
 }
 

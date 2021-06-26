@@ -1,0 +1,28 @@
+.imgProfile {
+  border-radius: 50%;
+  width: 12.5rem;
+  box-shadow: 0 5px 10px;
+  transition: transform 0.2s ease-in-out;
+  margin: 1rem;
+}
+
+.imgProfile:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 1.56rem;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.divImg {
+  background-color: #292573;
+  background-image: linear-gradient(132deg, #292573 0%, #010113 100%);
+  text-align: center;
+  font-size: 0.9rem;
+  color: cornsilk;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+}
