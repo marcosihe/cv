@@ -15,7 +15,7 @@ export const SobreMi = () => {
           />
           <Card.Body>
             <Card.Title>
-              <h2>Marcos Ezequiel Herrera</h2>
+              <h1>Marcos Ezequiel Herrera</h1>
             </Card.Title>
             <Card.Text>
               <h5>Full-Stack Developer - Jr</h5>
@@ -33,7 +33,7 @@ export const SobreMi = () => {
         <Card className="mt-5" border="warning">
           <Card.Body>
             <Card.Title className="text-center">
-              <h1>Sobre mí</h1>
+              <h2>Sobre mí</h2>
             </Card.Title>
             <Card.Text>
               Desde que descubrí cuánto me apasiona la programación, lo convertí
