@@ -21,6 +21,9 @@ function App() {
           <Route exact path="/">
             <SobreMi></SobreMi>
           </Route>
+          <Route exact path="/marcos">
+            <SobreMi></SobreMi>
+          </Route>
           <Route exact path="/marcos/educacion">
             <Educacion></Educacion>
           </Route>
