@@ -1,6 +1,7 @@
 import React from "react";
-import { Navbar, NavDropdown, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+//import { NavDropdown } from 'react-bootstrap'
 
 export const Navegacion = () => {
   return (
