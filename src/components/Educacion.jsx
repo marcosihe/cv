@@ -7,7 +7,9 @@ import styles from '../css/Educacion.module.css'
 
 export const Educacion = () => {
   return (
-    <CardGroup className="my-5">
+    <div>
+      <h2 className="text-center my-5">Educación Universitaria</h2>
+      <CardGroup className="my-5">
       <Card>
         <Card.Img variant="top" src={facetbio} className={styles.imgEducacion}/>
         <Card.Body>
@@ -74,5 +76,6 @@ export const Educacion = () => {
         </Card.Footer>
       </Card>
     </CardGroup>
+    </div>
   );
 };
