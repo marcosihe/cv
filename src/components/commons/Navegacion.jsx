@@ -29,9 +29,6 @@ export const Navegacion = () => {
             >
               Experiencia Laboral
             </NavLink>
-            <NavLink exact={true} to="/marcos/cursos" className="nav-link ms-1">
-              Cursos
-            </NavLink>
             <NavLink exact={true} to="/marcos/portfolio" className="nav-link ms-1">
               Portfolio
             </NavLink>

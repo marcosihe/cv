@@ -5,7 +5,6 @@ import { SobreMi } from "./components/SobreMi";
 import { Educacion } from "./components/Educacion";
 import { Habilidades } from "./components/Habilidades";
 import { Experiencia } from "./components/Experiencia";
-import { Cursos } from "./components/Cursos";
 import { Portfolio } from "./components/Portfolio";
 import { Contacto } from "./components/Contacto";
 import { Container } from "react-bootstrap";
@@ -32,9 +31,6 @@ function App() {
           </Route>
           <Route exact path="/marcos/habilidades">
             <Habilidades></Habilidades>
-          </Route>
-          <Route exact path="/marcos/cursos">
-            <Cursos></Cursos>
           </Route>
           <Route exact path="/marcos/portfolio">
             <Portfolio></Portfolio>
