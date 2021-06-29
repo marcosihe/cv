@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { CardGroup, Card } from "react-bootstrap";
 import facetbio from "../img/education-facet001.jpg";
 import facetpu from "../img/education-facet002.jpg";
@@ -7,7 +7,7 @@ import styles from '../css/Educacion.module.css'
 
 export const Educacion = () => {
   return (
-    <div>
+    <Fragment>
       <h2 className="text-center my-5">Educación Universitaria</h2>
       <CardGroup className="my-5">
       <Card>
@@ -76,6 +76,6 @@ export const Educacion = () => {
         </Card.Footer>
       </Card>
     </CardGroup>
-    </div>
+    </Fragment>
   );
 };

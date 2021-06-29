@@ -68,7 +68,6 @@ export const Habilidades = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-
         <CardGroup>
           <Card>
             <Card.Body className="text-center">

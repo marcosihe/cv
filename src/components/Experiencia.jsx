@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { JobCard } from "./JobCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -64,7 +64,7 @@ export const Experiencia = () => {
   ];
 
   return (
-    <div>
+    <Fragment>
       <h2 className="text-center my-5">Experiencia Laboral</h2>
       <div className="row">
         <div className={"col-sm-12 col-md-4 my-3"}>
@@ -152,6 +152,6 @@ export const Experiencia = () => {
           ></JobCard>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
