@@ -13,7 +13,6 @@ export const Footer = () => {
         </div>
         <p className="text-center text-light pt-2">Marcos Ezequiel Herrera</p>
       </div>
-   
     </Fragment>
   );
 };

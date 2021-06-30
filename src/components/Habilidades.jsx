@@ -9,7 +9,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFistRaised, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 
-
 export const Habilidades = () => {
   return (
     <Fragment>
