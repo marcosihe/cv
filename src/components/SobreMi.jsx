@@ -30,7 +30,7 @@ export const SobreMi = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className="mt-5" border="warning">
+      <Card className="mt-5" border="dark">
         <Card.Body>
           <Card.Title className="text-center">
             <h2>Sobre mí</h2>
