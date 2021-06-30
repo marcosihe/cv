@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import { Card } from "react-bootstrap";
+import { Spinner } from "./Spinner";
 
 export const Portfolio = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <Fragment>
+      <Card className="text-center my-5 p-5">
+        <Spinner></Spinner>
+        <h2>Portfolio en proceso de construcción...</h2>
+      </Card>
+    </Fragment>
+  );
+};
