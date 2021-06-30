@@ -1,7 +1,6 @@
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment } from "react";
-import styles from './Footer.module.css'
 
 export const Footer = () => {
   return (
