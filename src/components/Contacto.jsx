@@ -42,7 +42,7 @@ export const Contacto = () => {
               Enviarme un mail a:
               <br />
               <br />
-              <span className="fw-bold">marcosherrera.ib@gmail.com</span>
+              <span className="fw-bold">hemrcs@gmail.com</span>
               <br />
               <br />
               <FontAwesomeIcon
