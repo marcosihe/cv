@@ -14,26 +14,26 @@ export const Navegacion = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <NavLink exact={true} to="/marcos" className="nav-link ms-1">
-              Sobre mí
+              About me
             </NavLink>
             <NavLink exact={true} to="/marcos/educacion" className="nav-link ms-1">
-              Educación
+              Education
             </NavLink>
             <NavLink exact={true} to="/marcos/habilidades" className="nav-link ms-1">
-              Habilidades
+              Skills
             </NavLink>
             <NavLink
               exact={true}
               to="/marcos/experiencialaboral"
               className="nav-link ms-1"
             >
-              Experiencia Laboral
+              Career Summary
             </NavLink>
             <NavLink exact={true} to="/marcos/portfolio" className="nav-link ms-1">
               Portfolio
             </NavLink>
             <NavLink exact={true} to="/marcos/contacto" className="nav-link ms-1 me-3">
-              Contacto
+              Contact
             </NavLink>
             {/** 
              <NavDropdown title="Idioma" id="basic-nav-dropdown">

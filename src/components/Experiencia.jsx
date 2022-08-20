@@ -9,88 +9,79 @@ import {
   faPhoneSquare,
   faLaptopMedical,
   faChalkboardTeacher,
+  faLaptop,
 } from "@fortawesome/free-solid-svg-icons";
 //import styles from '../css/Experiencia.module.css';
 
 export const Experiencia = () => {
   const info = [
     {
-      title: "Bioingeniería",
-      subtitle: "Sanatorio 9 de Julio S.A.",
+      title: "Clinical Engineer",
+      subtitle: "9 de Julio S.A. Private Hospital",
       textBody:
-        "Mantenimiento preventivo y correctivo en el área de Bioingeniería del Sanatorio.",
-      footerText: "Tucumán-Argentina",
+        "Provides cost-effective equipment inspection, maintenance, calibration, and repair service on a variety of medical devices. Plan and execute technical support and maintenance to the sanatorium’s medical equipment (corrective and preventive tasks). Communicates with clinical staff on the topics of equipment features, functionality, etc. Provides fast and efficient responses to problems that may arise within the sanatorium.",
+      footerText: "7 months - Tucumán-Argentina",
     },
     {
-      title: "Operario en Estación de Servicio YPF",
-      subtitle: "Petronorte S.A.",
+      title: "Front-End Developer",
+      subtitle: "Thalú",
       textBody:
-        "Consultor interno y asesor externo con orientación al cliente.",
-      footerText: "Tucumán - Argentina",
+        "Carry out the building process of user interfaces for websties, applying technologies such as HTML, CSS, Javascript and Bootstrap 5.",
+      footerText: "3 months - Tucumán-Argentina",
     },
     {
-      title: "Servicio Técnico",
-      subtitle: "Freelancer - Taller Propio",
-      textBody: "Reparación y mantenimiento de determinados equipos médicos",
-      footerText: "Tucumán - Argentina",
+      title: "Test Automation Engineer JR",
+      subtitle: "Globant",
+      textBody: "Project: Investing ES - for Disney Media",
+      footerText: "6 months - Tucumán-Argentina",
     },
     {
-      title: "Tutor estudiantil",
+      title: "Volunteering: Student Council",
       subtitle: "Facultad de Ciencias Exactas y Tecnología",
       textBody:
-        "Tutor Par. Miembro del equipo de trabajo de la Tutoría estudiantil de la FACET",
-      footerText: "U.N.T.",
+        "Advise students on academic and administrative issues. Promote inclusion and encourage collaborative work through different activities such as workshops and trainings.",
+      footerText: "1 year - U.N.T.",
     },
     {
-      title: "Ayudante de Cátedra",
+      title: "Assistant Professor",
       subtitle: "Facultad de Bioquímica, Química y Farmacia",
       textBody:
-        "Auxiliar de 2º categoria de la materia Física I. Consultor de trabajos prácticos y ayudante de laboratorio.",
-      footerText: "U.N.T.",
+        "Teach the practical and laboratory part, to first-year college’s students, in Physics I subject. I also took a part in the design of the exercising guide book.",
+      footerText: "2 years - U.N.T.",
     },
     {
-      title: "Recepción de llamadas de emergencias",
-      subtitle: "Ministerio de Seguridad Ciudadana",
-      textBody: "Recepción de llamadas de la línea de emergencia 911.",
-      footerText: "Tucumán - Argentina",
-    },
-    {
-      title: "Profesor particular",
-      subtitle: "Nivel secundario y universitario",
+      title: "Call Center Agent - Intership",
+      subtitle: "Security Citizen Ministry",
       textBody:
-        "Dictado de clases presenciales de diferentes materias: Matemática, Física, Química, entre otras.",
-      footerText: "Tucumán - Argentina",
+        "Categorize emergency calls in order to achieve correct and fast intervention.",
+      footerText: "6 months - Tucumán-Argentina",
     },
+    {
+      title: "Back-End Developer",
+      subtitle: "Entropy Labs - Workstride",
+      textBody: "Part of the Operations Team for Workstride. Working with Java and SQL. Besides, I also work in an internal project for Entropy Labs, developing in React JS.",
+      footerText: "Since May 2022 - Remote Work"
+    }
   ];
 
   return (
     <Fragment>
-      <h2 className="text-center my-5">Experiencia Laboral</h2>
+      <h2 className="text-center my-5">Carrer Summary</h2>
       <div className="row">
-        <div className={"col-sm-12 col-md-4 my-3"}>
-          <JobCard
-            info={info[0]}
-            icon={
-              <FontAwesomeIcon
-                icon={faLaptopMedical}
-                size="3x"
-                className="text-success"
-              ></FontAwesomeIcon>
-            }
-          ></JobCard>
-        </div>
+        {/** Entropy */}
         <div className="col-sm-12 col-md-4 my-3">
           <JobCard
-            info={info[1]}
+            info={info[6]}
             icon={
               <FontAwesomeIcon
-                icon={faOilCan}
+                icon={faLaptop}
                 size="3x"
                 className="text-secondary"
               ></FontAwesomeIcon>
             }
           ></JobCard>
         </div>
+        {/** Globant */}
         <div className="col-sm-12 col-md-4 my-3">
           <JobCard
             info={info[2]}
@@ -103,6 +94,20 @@ export const Experiencia = () => {
             }
           ></JobCard>
         </div>
+        {/** Thalú */}
+        <div className="col-sm-12 col-md-4 my-3">
+          <JobCard
+            info={info[1]}
+            icon={
+              <FontAwesomeIcon
+                icon={faChalkboardTeacher}
+                size="3x"
+                className="text-success"
+              ></FontAwesomeIcon>
+            }
+          ></JobCard>
+        </div>
+        {/** Tutoría */}
         <div className="col-sm-12 col-md-4 my-3">
           <JobCard
             info={info[3]}
@@ -115,6 +120,20 @@ export const Experiencia = () => {
             }
           ></JobCard>
         </div>
+        {/** ING. Clínico */}
+        <div className="col-sm-12 col-md-4 my-3">
+          <JobCard
+            info={info[0]}
+            icon={
+              <FontAwesomeIcon
+                icon={faLaptopMedical}
+                size="3x"
+                className="text-success"
+              ></FontAwesomeIcon>
+            }
+          ></JobCard>
+        </div>
+        {/** Ayudante de Cátedra */}
         <div className="col-sm-12 col-md-4 my-3">
           <JobCard
             info={info[4]}
@@ -127,6 +146,7 @@ export const Experiencia = () => {
             }
           ></JobCard>
         </div>
+        {/** 911 */}
         <div className="col-sm-12 col-md-4 my-3">
           <JobCard
             info={info[5]}
@@ -135,18 +155,6 @@ export const Experiencia = () => {
                 icon={faPhoneSquare}
                 size="3x"
                 className="text-primary"
-              ></FontAwesomeIcon>
-            }
-          ></JobCard>
-        </div>
-        <div className="col-sm-12 col-md-4 my-3">
-          <JobCard
-            info={info[6]}
-            icon={
-              <FontAwesomeIcon
-                icon={faChalkboardTeacher}
-                size="3x"
-                className="text-success"
               ></FontAwesomeIcon>
             }
           ></JobCard>

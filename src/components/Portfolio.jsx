@@ -7,7 +7,7 @@ export const Portfolio = () => {
     <Fragment>
       <Card className="text-center my-5 p-5">
         <Spinner></Spinner>
-        <h2>Portfolio en proceso de construcción...</h2>
+        <h2>Portfolio in progress...</h2>
       </Card>
     </Fragment>
   );

@@ -18,7 +18,7 @@ export const SobreMi = () => {
             <h1>Marcos Ezequiel Herrera</h1>
           </Card.Title>
           <Card.Text>
-            <h5>Full-Stack Developer - Jr</h5>
+            <h5>Software Developer</h5>
             <div className="d-flex justify-content-center">
               <img
                 src={iconArg}
@@ -33,20 +33,21 @@ export const SobreMi = () => {
       <Card className="mt-5" border="dark">
         <Card.Body>
           <Card.Title className="text-center">
-            <h2>Sobre mí</h2>
+            <h2>About Marcos</h2>
           </Card.Title>
           <Card.Text>
-            Desde que descubrí cuánto me apasiona la programación, lo convertí
-            en mi estilo de vida. Lo aplico día a día y disfruto del desarrollo
-            tanto como del aprendizaje diario. Durante varios años me he formado
-            de una manera técnica, por la Ingeniería, desarrollando ciertas
-            habilidades para la resolución de problemas, las cuales también
-            aplico de manera cotidiana. Además fui adquiriendo habilidades
-            blandas por las diferentes actividades que he llevado a cabo,
-            incluyendo talleres, capacitaciones, viajes, y muchos tipos de
-            trabajos que no tienen que ver con mi profesión y objetivos
-            profesional actual. Hola, soy Marcos! y soy una construcción de todo
-            eso que he transitado.
+            Marcos is a problem-solving person who always tries to provide
+            efficient, scalable, and readable solutions to problems that arise
+            daily in software development. He also has experience working with
+            agile methodologies thanks to working as part of software
+            development teams at Globant, Entropy Labs, among others. So far, he
+            has added different Front-end, Back-end, and QA Automation
+            technologies to his technical skills. Moreover, he continues
+            training in these technologies, mainly those related to the MERN
+            stack. He feels committed to himself to make a difference leaving
+            his mark as he did in every place where he worked before. He
+            believes good communication is one of the keys to success in this
+            area
           </Card.Text>
         </Card.Body>
       </Card>

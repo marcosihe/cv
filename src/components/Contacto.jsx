@@ -8,20 +8,19 @@ import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 export const Contacto = () => {
   return (
     <Fragment>
-      <h2 className="text-center my-5">Contacto</h2>
+      <h2 className="text-center my-5">Contact</h2>
       <p>
-        Si queres saber más sobre mi trabajo podes contactarme mediante los
-        siguientes medios:
+        If you want to know more about my job, you can contact me through the following medias
       </p>
       <CardColumns className="text-center py-2">
         <Card border="dark">
           <Card.Body>
-            <Card.Title>Celular</Card.Title>
+            <Card.Title>Mobile Phone</Card.Title>
             <hr />
             <Card.Text>
-              Podes llamarme o enviarme mensajes al número: <br />
-              <span className="fw-bold">+54 9 381 6703322</span>
-              <br /> o via whatsapp:
+              Phone Call or Text Message <br />
+              <span className="fw-bold">+5493816703322</span>
+              <br /> Whatsapp:
               <br />
               <br />
               <a
@@ -39,7 +38,7 @@ export const Contacto = () => {
             <Card.Title>E-mail</Card.Title>
             <hr />
             <Card.Text>
-              Enviarme un mail a:
+              Send E-mail to:
               <br />
               <br />
               <span className="fw-bold">hemrcs@gmail.com</span>
